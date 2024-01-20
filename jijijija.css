@@ -1,0 +1,23 @@
+body{
+    background-color: #5a18b7;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #5a18b7 20%, #5a18b7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #5a18b7 20%, #5a18b7 80%, transparent 80%, transparent) 42.5px 42.5px, linear-gradient(#fff500 3.4000000000000004px, transparent 3.4000000000000004px) 0 -1.7000000000000002px, linear-gradient(90deg, #fff500 3.4000000000000004px, #5a18b7 3.4000000000000004px) -1.7000000000000002px 0;
+background-size: 85px 85px, 85px 85px, 42.5px 42.5px, 42.5px 42.5px;
+text-align: center;
+}
+#start{
+    font-family: cursive;
+    background-color: green;
+    color: aquamarine;
+    border-radius: 25%;
+    box-shadow: 5px 5px 3px lightslategrey;
+    z-index: 120;
+}
+#jajajajajaj{
+    display: none;
+    left: 15%;
+    font-size: 3.89cm;
+    position: absolute;
+    bottom: -10cm;
+    z-index: 119;
+}

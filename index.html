@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="shortcut icon" href="lapizSD.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="jijijija.css">
+    <script src="njoojnnjoojnnjo.js"></script>
+    <title>Speed Draw</title>
+</head>
+<body>
+    <h1 id="titulo">Empieza a dibujar aqui ↓</h1>
+    <h1 id="cronometro"></h1>
+    <br>
+    <audio src="win sound 2-3.wav" id="sound"></audio>
+    <button id="save" onclick="save()">guarda tu foto aqui</button>
+    <button id="erase" onclick="eraseUnaVez()">borra todo tu lienzo aqui</button>
+    <select id="color">
+        <option value="black">negro</option>
+        <option value="yellow">amarillo</option>
+        <option value="red">rojo</option>
+        <option value="green">verde</option>
+        <option value="blue">azul</option>
+        <option value="lightgray">borrar</option>
+    </select>
+    <input type="range" min="10" max="100" step="2" id="grosor">
+    <br> 
+    <br> 
+    <button id="start" onclick="raguj()">Comienza a competir aquí</button>
+    <br>
+    <br>
+    <br>
+    <h2 id="holaqwertyhuiopasdfghjklñzxcvbnm">Aqui aparece la palabra a dibujar</h2>
+    <div>
+        <h3 id="mnbvcxzñlkjhgfdsapoiuytrewq"></h3>
+    </div>
+    <h4 id="fubsol"></h4>
+    <br>
+    <div id="cacas"></div>
+    <h1 id="jajajajajaj">GAME OVER</h1>
+    <h3 id="showPts"></h3>
+    <h4 id="ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo0"></h4>
+    <select id="dificult">
+        <option value="facil">fácil(40 segundos, 5pts)</option>
+        <option value="medio">medio(30 segundos, 20pts)</option>
+        <option value="dificil">dificil(15 segundos, 35pts)</option>
+        <option value="brutal">brutal(5 segundos, 50pts)</option>
+    </select>
+</body>
+</html>
